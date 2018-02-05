@@ -1,0 +1,10 @@
+Weight = input("What is your Weight?")
+Height = input("What is your Height?")
+BMI = 703*(int(Weight))/(int(Height)**2)
+print("If you have a weight of " + str(Weight) + " and a height of " + str(Height)+ " then you have a BMI of: " + str(BMI) + " and you are considered to be: ")
+if (int(BMI) <=18):
+	print("underweight")
+elif (int(BMI)>=18) and (BMI <=26):
+	print("normal weight")
+else: 
+	print("overweight")
